@@ -1,0 +1,20 @@
+# Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+
+# Android
+android/key.properties
+*.jks
+*.keystore
+
+# iOS
+Pods/
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
