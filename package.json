@@ -1,0 +1,13 @@
+{
+  "name": "digital-album",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "src/frontend",
+    "src/backend"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces --if-present"
+  }
+}
